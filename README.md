@@ -1,4 +1,4 @@
-# 🏬 Mall Billing Software (Spring Boot)
+# 🏬 Retailix Billing Software (Spring Boot)
 
 A **modern billing & POS backend application** built using **Spring Boot** for malls and retail shops. This system allows shop owners to manage categories, items, billing, payments (Cash / UPI / Card), receipts, and view daily income & order history through a dashboard.
 
@@ -114,6 +114,16 @@ razorpay.secret-key=YOUR_RAZORPAY_SECRET
 ```
 
 ---
+
+## 🔐 Frontend URL Configuration
+
+Replace your frontend URL inside SecurityConfig (CORS configuration).
+
+Example:
+```
+.allowedOrigins("http://localhost:5173")
+
+```
 
 ## ▶️ Run the Application
 
